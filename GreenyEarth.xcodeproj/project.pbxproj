@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D048ABCB73C654E282D30C /* Pods_GreenyEarth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01F7157DA37529964BF326C /* Pods_GreenyEarth.framework */; };
 		5904B2B820284BAB00ACBB85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904B2B720284BAB00ACBB85 /* AppDelegate.swift */; };
-		5904B2BA20284BAB00ACBB85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904B2B920284BAB00ACBB85 /* ViewController.swift */; };
 		5904B2BD20284BAB00ACBB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5904B2BB20284BAB00ACBB85 /* Main.storyboard */; };
 		5904B2BF20284BAB00ACBB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5904B2BE20284BAB00ACBB85 /* Assets.xcassets */; };
 		5904B2C220284BAB00ACBB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5904B2C020284BAB00ACBB85 /* LaunchScreen.storyboard */; };
-		5904B2E0202857AF00ACBB85 /* SignupLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904B2DF202857AF00ACBB85 /* SignupLoginController.swift */; };
-		5904B2E62028650E00ACBB85 /* LoginControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904B2E52028650E00ACBB85 /* LoginControllerViewController.swift */; };
+		5904B2E0202857AF00ACBB85 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904B2DF202857AF00ACBB85 /* LoginController.swift */; };
+		59350B7D2029A50200E01C54 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59350B7C2029A50200E01C54 /* UIButtonExtension.swift */; };
+		59350B832029E75600E01C54 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59350B822029E75600E01C54 /* FeedController.swift */; };
+		59350B852029F12900E01C54 /* feedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59350B842029F12900E01C54 /* feedCollectionViewCell.swift */; };
+		597F2FCA2028CECB00FCB818 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597F2FC92028CECB00FCB818 /* CreateAccountController.swift */; };
+		597F2FCC2028D4BC00FCB818 /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597F2FCB2028D4BC00FCB818 /* ButtonWithImage.swift */; };
+		59E10468202A1EE400E6CF3C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E10467202A1EE400E6CF3C /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5904B2B420284BAB00ACBB85 /* GreenyEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenyEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5904B2B720284BAB00ACBB85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5904B2B920284BAB00ACBB85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5904B2BC20284BAB00ACBB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5904B2BE20284BAB00ACBB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5904B2C120284BAB00ACBB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,8 +46,17 @@
 		5904B2DC20284E4B00ACBB85 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
 		5904B2DD20284E4B00ACBB85 /* Metropolis-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BoldItalic.otf"; sourceTree = "<group>"; };
 		5904B2DE20284E4B00ACBB85 /* Metropolis-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
-		5904B2DF202857AF00ACBB85 /* SignupLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupLoginController.swift; sourceTree = "<group>"; };
-		5904B2E52028650E00ACBB85 /* LoginControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerViewController.swift; sourceTree = "<group>"; };
+		5904B2DF202857AF00ACBB85 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		592E497D2028F44700A00B57 /* GreenyEarth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreenyEarth.entitlements; sourceTree = "<group>"; };
+		59350B7C2029A50200E01C54 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		59350B822029E75600E01C54 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		59350B842029F12900E01C54 /* feedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCollectionViewCell.swift; sourceTree = "<group>"; };
+		597F2FC92028CECB00FCB818 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		597F2FCB2028D4BC00FCB818 /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
+		59E10467202A1EE400E6CF3C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		83D8F3D9D1A93B7EB93F493C /* Pods-GreenyEarth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenyEarth.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenyEarth/Pods-GreenyEarth.release.xcconfig"; sourceTree = "<group>"; };
+		A01F7157DA37529964BF326C /* Pods_GreenyEarth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenyEarth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3599023C714667562EC2D37 /* Pods-GreenyEarth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenyEarth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenyEarth/Pods-GreenyEarth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +64,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D048ABCB73C654E282D30C /* Pods_GreenyEarth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DFA0C2260554CAEC8EB95AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3599023C714667562EC2D37 /* Pods-GreenyEarth.debug.xcconfig */,
+				83D8F3D9D1A93B7EB93F493C /* Pods-GreenyEarth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5904B2AB20284BAB00ACBB85 = {
 			isa = PBXGroup;
 			children = (
 				5904B2B620284BAB00ACBB85 /* GreenyEarth */,
 				5904B2B520284BAB00ACBB85 /* Products */,
+				2DFA0C2260554CAEC8EB95AD /* Pods */,
+				DC048763BE6E89D76EF7D677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,11 +101,12 @@
 		5904B2B620284BAB00ACBB85 /* GreenyEarth */ = {
 			isa = PBXGroup;
 			children = (
-				5904B2E220285EDE00ACBB85 /* Custom UI Styles */,
+				592E497D2028F44700A00B57 /* GreenyEarth.entitlements */,
 				5904B2CC20284E4B00ACBB85 /* metropolis */,
+				5904B2E220285EDE00ACBB85 /* Custom UI Styles */,
+				59350B862029FF5700E01C54 /* Swift Files */,
 				5904B2C920284BE500ACBB85 /* Controllers */,
 				5904B2B720284BAB00ACBB85 /* AppDelegate.swift */,
-				5904B2B920284BAB00ACBB85 /* ViewController.swift */,
 				5904B2BB20284BAB00ACBB85 /* Main.storyboard */,
 				5904B2BE20284BAB00ACBB85 /* Assets.xcassets */,
 				5904B2C020284BAB00ACBB85 /* LaunchScreen.storyboard */,
@@ -92,8 +118,9 @@
 		5904B2C920284BE500ACBB85 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5904B2DF202857AF00ACBB85 /* SignupLoginController.swift */,
-				5904B2E52028650E00ACBB85 /* LoginControllerViewController.swift */,
+				5904B2DF202857AF00ACBB85 /* LoginController.swift */,
+				597F2FC92028CECB00FCB818 /* CreateAccountController.swift */,
+				59350B822029E75600E01C54 /* FeedController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -126,8 +153,27 @@
 		5904B2E220285EDE00ACBB85 /* Custom UI Styles */ = {
 			isa = PBXGroup;
 			children = (
+				597F2FCB2028D4BC00FCB818 /* ButtonWithImage.swift */,
+				59350B7C2029A50200E01C54 /* UIButtonExtension.swift */,
 			);
 			path = "Custom UI Styles";
+			sourceTree = "<group>";
+		};
+		59350B862029FF5700E01C54 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				59350B842029F12900E01C54 /* feedCollectionViewCell.swift */,
+				59E10467202A1EE400E6CF3C /* Post.swift */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		DC048763BE6E89D76EF7D677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01F7157DA37529964BF326C /* Pods_GreenyEarth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5904B2C620284BAB00ACBB85 /* Build configuration list for PBXNativeTarget "GreenyEarth" */;
 			buildPhases = (
+				ACC4BA624E4462F8D172B2B8 /* [CP] Check Pods Manifest.lock */,
 				5904B2B020284BAB00ACBB85 /* Sources */,
 				5904B2B120284BAB00ACBB85 /* Frameworks */,
 				5904B2B220284BAB00ACBB85 /* Resources */,
+				184B1401C1C63277EBE18EE8 /* [CP] Embed Pods Frameworks */,
+				7D4B219100D4837A25210D30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +212,11 @@
 					5904B2B320284BAB00ACBB85 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -197,15 +251,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		184B1401C1C63277EBE18EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GreenyEarth/Pods-GreenyEarth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenyEarth/Pods-GreenyEarth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4B219100D4837A25210D30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenyEarth/Pods-GreenyEarth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC4BA624E4462F8D172B2B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenyEarth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5904B2B020284BAB00ACBB85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5904B2BA20284BAB00ACBB85 /* ViewController.swift in Sources */,
+				597F2FCA2028CECB00FCB818 /* CreateAccountController.swift in Sources */,
+				59350B832029E75600E01C54 /* FeedController.swift in Sources */,
+				59350B852029F12900E01C54 /* feedCollectionViewCell.swift in Sources */,
+				59E10468202A1EE400E6CF3C /* Post.swift in Sources */,
+				59350B7D2029A50200E01C54 /* UIButtonExtension.swift in Sources */,
 				5904B2B820284BAB00ACBB85 /* AppDelegate.swift in Sources */,
-				5904B2E62028650E00ACBB85 /* LoginControllerViewController.swift in Sources */,
-				5904B2E0202857AF00ACBB85 /* SignupLoginController.swift in Sources */,
+				5904B2E0202857AF00ACBB85 /* LoginController.swift in Sources */,
+				597F2FCC2028D4BC00FCB818 /* ButtonWithImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,13 +458,15 @@
 		};
 		5904B2C720284BAB00ACBB85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3599023C714667562EC2D37 /* Pods-GreenyEarth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreenyEarth/GreenyEarth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35EX4367J4;
 				INFOPLIST_FILE = GreenyEarth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.united.GreenyEarth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.united.GreenEarth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,13 +475,15 @@
 		};
 		5904B2C820284BAB00ACBB85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D8F3D9D1A93B7EB93F493C /* Pods-GreenyEarth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreenyEarth/GreenyEarth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35EX4367J4;
 				INFOPLIST_FILE = GreenyEarth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.united.GreenyEarth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.united.GreenEarth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
